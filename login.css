@@ -1,0 +1,54 @@
+			body{
+				    background-image: url(mini_cubes.jpg);
+
+			}
+			.login-box{
+				top: 50%;
+				left: 50%;
+				position: absolute;
+				transform: translate(-50%,-50%);
+				background-color: white;
+				width: 400px;
+				height: 300px;
+				border-radius: 20px;
+				box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 0px;
+			}
+			form{
+				top: 50%;
+				left: 50%;
+				position: absolute;
+				transform: translate(-50%,-50%);
+				
+				text-align: center;
+				font-size:25px;
+				font-family: sans-serif;
+			}
+			form p{
+				margin:0px;
+				
+			}
+			.field{
+				height:30px;
+				width:300px;
+				border-radius:20px;
+				margin: 5px 0px 10px 0px;
+			}
+			
+			.button{
+				height:40px;
+				width:300px;
+				border-radius:20px;
+				padding-top: 7.5px;
+				
+				background-color: #1f5bff;
+				color:white;
+				text-decoration:none;
+			}
+			
+			.button:hover{
+				color:#f87458;
+			}
+			
+			form a{
+				text-decoration:none;
+			}
